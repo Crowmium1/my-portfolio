@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+## This will be the first page of my portfolio website, showing a brief introduction of myself and my projects. 
+## I will also include a link to my resume and my LinkedIn profile.
+## I will also include a link to my GitHub profile.
+## I will also include a link to my Tableau Public profile.
+## I will also include a link to my Kaggle profile.
+## I will also provide links to my social media profiles and my email address.
+## I will also include a link to my blog.
+
 import streamlit as st
 from streamlit.logger import get_logger
 
@@ -26,7 +34,7 @@ def run():
 
     st.write("# Welcome to Streamlit! 👋")
 
-    st.sidebar.success("Select a demo above.")
+    st.sidebar.success("Select a new thing above.")
 
     st.markdown(
         """
